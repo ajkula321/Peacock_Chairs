@@ -7,7 +7,7 @@ body {
     font-family: "Roboto", sans-serif;
     min-height: 200vh;
     background-image: url(../Images/background_image.png);
-    max-width: 50%;
+    max-width: 730px;
     margin: auto;
     padding: 0rem;
 }
@@ -16,8 +16,8 @@ header {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     background-color: #243b3b;
-    top: 0;
     width: 100%;
+    height: 45px;
 }
 
 ul {
@@ -44,8 +44,9 @@ a:focus {
 }
 
 .first_article {
-    height: 315px;
+    height: 304px;
     background-color: #243b3b;
+    border: 0px 1px 1px 1px solid rgba(77, 77, 77, 0.550);
 }
 
 hr {
@@ -91,8 +92,10 @@ hr {
 }
 
 .second_article {
-    height: 377px;
+    height: 411px;
     background-color: #dbbba2;
+    display: flow-root;
+    border: 1px solid rgba(77, 77, 77, 0.550);
 }
 
 .second_article h2 {
@@ -117,12 +120,12 @@ hr {
 
 .second_article figure {
     margin: 0px;
-    width: 48%;
+    width: 50%;
     float: left;
 }
 
 .second_image {
-    width: 92%;
+    width: 100%;
     height: auto;
     min-width: 100px;
 }
@@ -130,6 +133,8 @@ hr {
 .third_article {
     min-height: 400px;
     background-color: #243b3b;
+    display: flow-root;
+    border: 1px solid rgba(77, 77, 77, 0.550);
 }
 
 .third_article h2 {
@@ -155,16 +160,16 @@ hr {
 }
 
 .third_article figure {
-    margin: 20px;
-    width: 48%;
+    margin: 0px;
+    width: 50%;
     float: left;
 }
 
 .third_image {
-    width: 94%;
+    width: 95%;
     height: auto;
     min-width: 100px;
-    padding-top: 1rem;
+    padding-top: 2rem;
     margin-left: 0.5rem;
 }
 
@@ -172,6 +177,7 @@ hr {
     height: 411px;
     background-color: #243b3b;
     display: flow-root;
+    border: 1px solid rgba(77, 77, 77, 0.550);
 }
 
 .fourth_article h2 {
@@ -213,6 +219,7 @@ hr {
     min-height: 400px;
     background-color: #243b3b;
     display: flow-root;
+    border: 1px solid rgba(77, 77, 77, 0.550);
 }
 
 .fifth_article h2 {
@@ -257,6 +264,7 @@ hr {
     background-color: #243b3b;
     display: flow-root;
     padding-bottom: 75px;
+    border: 1px solid rgba(77, 77, 77, 0.550);
 }
 
 .sixth_article h2 {
@@ -294,7 +302,7 @@ footer {
     bottom: 0;
     text-align: center;
     border-top: 3px solid rgb(85, 85, 85);
-    width: 50%;
+    width: 730px;
     height: 54px;
 }
 
