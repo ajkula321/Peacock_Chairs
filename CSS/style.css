@@ -431,6 +431,10 @@ article {
     cursor: pointer;
 }
 
+.footer_text .phone {
+    color: var(--ACGREEN);
+}
+
 a:hover,
 a:focus {
     opacity: 0.5;
