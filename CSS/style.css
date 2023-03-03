@@ -425,7 +425,7 @@ article {
     cursor: pointer;
 }
 
-.footer_text .telefon {
+.telefon {
     color: var(--ACGREEN);
     font-size: 1.1rem;
 }
