@@ -433,6 +433,7 @@ article {
 
 .footer_text .telefon {
     color: var(--ACGREEN);
+    font-size: 1.1rem;
 }
 
 a:hover,
