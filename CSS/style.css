@@ -411,6 +411,7 @@ article {
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--ACGREEN);
+    -webkit-text-fill-color: rgba(36, 59, 59, 1);
     /* RGB 36,59,59 is replacement
     background-color: #8ebc42;
         -webkit-appearance: none;
