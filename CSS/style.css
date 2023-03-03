@@ -408,8 +408,6 @@ article {
 
 .footer_text p {
     margin-top: 1.3rem;
-    font-size: 1.1rem;
-    font-weight: 700;
     color: var(--ACGREEN);
     opacity: 1;
 }
@@ -426,6 +424,12 @@ article {
 }
 
 .footer_text .telefon {
+    color: var(--ACGREEN);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.footer_text .email {
     color: var(--ACGREEN);
     font-size: 1.1rem;
     font-weight: 700;
