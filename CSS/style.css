@@ -408,6 +408,8 @@ article {
 
 .footer_text p {
     margin-top: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 700;
     color: var(--ACGREEN);
     opacity: 1;
 }
@@ -426,18 +428,6 @@ article {
 .footer_text .telefon {
     color: var(--ACGREEN);
     font-size: 1.1rem;
-    font-weight: 700;
-}
-
-.footer_text .email {
-    color: var(--ACGREEN);
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-
-a:hover,
-a:focus {
-    opacity: 0.5;
 }
 
 @media screen and (min-width: 481px) {
@@ -451,6 +441,9 @@ a:focus {
         font-size: 1.4rem;
     }
     .footer_text .instagram {
+        font-size: 1.4rem;
+    }
+    .footer_text .telefon {
         font-size: 1.4rem;
     }
 }
