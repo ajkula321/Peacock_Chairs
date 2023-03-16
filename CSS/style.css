@@ -101,6 +101,7 @@ article {
 
 .first_article h1 {
     font-size: 2.2rem;
+    text-decoration: underline;
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
     color: rgb(212, 204, 204);
@@ -110,11 +111,6 @@ article {
     margin-top: 0;
     color: rgb(212, 204, 204);
     font-size: 0.5rem;
-}
-
-.line {
-    letter-spacing: 0rem;
-    font-weight: bold;
 }
 
 .opis {
@@ -133,9 +129,6 @@ article {
     }
     .first_article p {
         font-size: 0.85rem;
-    }
-    .line {
-        letter-spacing: -0.1rem;
     }
     .opis {
         font-size: 2.8rem;
@@ -416,18 +409,16 @@ article {
 
 .footer_text .instagram {
     font-size: 1.1rem;
-    font-weight: 700;
-}
-
-.instagram {
     color: var(--ACGREEN);
     text-decoration: none;
     cursor: pointer;
 }
 
-.telefon {
-    color: var(--ACGREEN);
+.footer_text .telefon {
     font-size: 1.1rem;
+    color: var(--ACGREEN);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 481px) {
