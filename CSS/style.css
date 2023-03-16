@@ -40,21 +40,18 @@ nav {
     justify-content: space-evenly;
 }
 
-a {
+.galerija {
     font-size: 1rem;
     font-weight: bold;
-}
-
-@media screen and (max-width: 520px) {
-    a {
-        font-size: 0.8rem;
-    }
-}
-
-a {
     color: rgb(212, 204, 204);
     text-decoration: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+    .galerija {
+        font-size: 0.8rem;
+    }
 }
 
 a:hover,
