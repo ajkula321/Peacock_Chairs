@@ -359,9 +359,8 @@ article {
 }
 
 .sixth_article img {
-    width: 92%;
+    width: 100%;
     height: auto;
-    margin-left: 2rem;
 }
 
 @media screen and (min-width: 570px) {
