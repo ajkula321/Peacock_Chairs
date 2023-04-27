@@ -8,13 +8,14 @@
 /* VARIABLES */
 
 :root {
-    --ACGREEN: #243b3b;
-    --ACLIGHT: #dbbba2;
+    --ACGREEN: #bebbd4;
+    --ACLIGHT: #e0dede;
+    --BLACK: #000000;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Yatra+One&display=swap');
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 750px;
     min-height: 100vh;
     margin-left: auto;
@@ -43,7 +44,7 @@ nav {
 .galerija {
     font-size: 1rem;
     font-weight: bold;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
     text-decoration: none;
     cursor: pointer;
 }
@@ -98,16 +99,17 @@ article {
 
 .first_article h1 {
     font-size: 2.2rem;
-    text-decoration: underline;
+    text-decoration: none;
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
 }
 
 .first_article p {
     margin-top: 0;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
     font-size: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .opis {
@@ -142,6 +144,7 @@ article {
     max-height: 500px;
     background-color: var(--ACLIGHT);
     overflow: auto;
+    text-align: center;
 }
 
 .second_article img {
@@ -156,7 +159,7 @@ article {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1.5rem;
-    color: var(--ACGREEN);
+    color: var(--BLACK);
 }
 
 .second_article p {
@@ -165,7 +168,7 @@ article {
     margin-top: 0;
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
-    color: var(--ACGREEN);
+    color: var(--BLACK);
     font-size: 0.65rem;
 }
 
@@ -189,6 +192,7 @@ article {
     max-height: 500px;
     background-color: var(--ACGREEN);
     overflow: auto;
+    text-align: center;
 }
 
 .third_article img {
@@ -203,7 +207,7 @@ article {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1.5rem;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
 }
 
 .third_article p {
@@ -212,7 +216,7 @@ article {
     margin-top: 0;
     margin-bottom: 0.5rem;
     margin-left: 1.5rem;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
     font-size: 0.65rem;
 }
 
@@ -233,12 +237,13 @@ article {
     width: 100%;
     min-height: 100px;
     max-height: 500px;
-    background-color: var(--ACGREEN);
+    background-color: var(--ACLIGHT);
     overflow: auto;
+    text-align: center;
 }
 
 .fourth_article img {
-    width: 43%;
+    width: 47%;
     height: auto;
     float: right;
 }
@@ -249,16 +254,16 @@ article {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1.5rem;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
 }
 
 .fourth_article p {
     display: inline-block;
     width: 48%;
     margin-top: 0;
-    margin-left: 1.5rem;
+    margin-left: 0.8rem;
     margin-bottom: 0.5rem;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
     font-size: 0.65rem;
 }
 
@@ -283,6 +288,7 @@ article {
     max-height: 500px;
     background-color: var(--ACGREEN);
     overflow: auto;
+    text-align: center;
 }
 
 .fifth_article img {
@@ -297,7 +303,7 @@ article {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1.5rem;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
 }
 
 .fifth_article p {
@@ -306,7 +312,7 @@ article {
     margin-top: 0;
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
-    color: rgb(212, 204, 204);
+    color: var(--BLACK);
     font-size: 0.65rem;
 }
 
@@ -353,9 +359,9 @@ article {
 }
 
 .sixth_article img {
-    width: 43%;
+    width: 90%;
     height: auto;
-    float: right;
+    margin-left: 2rem;
 }
 
 @media screen and (min-width: 570px) {
