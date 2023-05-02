@@ -55,8 +55,14 @@ nav {
     }
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
 a:hover,
 a:focus {
+    color: #000000;
     opacity: 0.5;
 }
 
@@ -158,7 +164,6 @@ article {
     font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: 1.5rem;
     color: var(--BLACK);
 }
 
@@ -166,7 +171,6 @@ article {
     display: inline-block;
     width: 48%;
     margin-top: 0;
-    margin-left: 1.5rem;
     margin-bottom: 0.5rem;
     color: var(--BLACK);
     font-size: 0.65rem;
@@ -205,8 +209,7 @@ article {
     display: inline-block;
     font-size: 1.5rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1.5rem;
+    margin-bottom: 0.4rem;
     color: var(--BLACK);
 }
 
@@ -214,8 +217,7 @@ article {
     display: inline-block;
     width: 48%;
     margin-top: 0;
-    margin-bottom: 0.5rem;
-    margin-left: 1.5rem;
+    margin-bottom: 0.4rem;
     color: var(--BLACK);
     font-size: 0.65rem;
 }
@@ -224,9 +226,11 @@ article {
     .third_article h2 {
         font-size: 2.8rem;
         margin-top: 3rem;
+        margin-bottom: 1.5rem;
     }
     .third_article p {
         font-size: 1.2rem;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -253,7 +257,6 @@ article {
     font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: 1.5rem;
     color: var(--BLACK);
 }
 
@@ -261,8 +264,9 @@ article {
     display: inline-block;
     width: 48%;
     margin-top: 0;
-    margin-left: 0.8rem;
     margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     color: var(--BLACK);
     font-size: 0.65rem;
 }
@@ -271,11 +275,9 @@ article {
     .fourth_article h2 {
         font-size: 2.8rem;
         margin-top: 3rem;
-        margin-left: 2rem;
     }
     .fourth_article p {
         font-size: 1.2rem;
-        margin-left: 2rem;
     }
 }
 
@@ -301,8 +303,7 @@ article {
     display: inline-block;
     font-size: 1.5rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
     color: var(--BLACK);
 }
 
@@ -310,21 +311,20 @@ article {
     display: inline-block;
     width: 48%;
     margin-top: 0;
-    margin-left: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     color: var(--BLACK);
-    font-size: 0.65rem;
+    font-size: 0.8rem;
 }
 
 @media screen and (min-width: 570px) {
     .fifth_article h2 {
         font-size: 2.8rem;
         margin-top: 4rem;
-        margin-left: 2rem;
+        margin-bottom: 1rem;
     }
     .fifth_article p {
-        font-size: 1.2rem;
-        margin-left: 2rem;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
     }
 }
 
